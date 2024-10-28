@@ -20,7 +20,7 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-.section-title{
+.section-title {
   font-size: 3rem;
   font-weight: 900;
 }
@@ -42,8 +42,8 @@
   background: #e6533c;
 }
 
-.padding {
-  padding: 3.5rem 11.87rem 2rem 11.87rem;
+.size {
+  margin: 3.5rem 11.87rem 6.25rem 11.87rem;
 }
 
 .btn {
@@ -61,7 +61,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px auto;
 }
 .logo {
   font-size: 2.25rem;
@@ -168,14 +167,53 @@
   border: 2px solid white;
 } */
 
-.habit{
+/* -------------------------------Habit Section Styles */
+
+.habit {
   text-align: center;
+  margin-top: 6.25rem;
 }
-.habit-card-container{
+.habit-card-container {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem;
+  margin-top: 3.6rem;
 }
-.habit-img{
+.habit-img {
+  padding: 1rem;
   border-radius: 50%;
+}
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* --------------------------Run Section Styles */
+
+.run {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10.3rem;
+}
+
+.run-img img{
+  width: 22.8rem;
+  height: 19.5rem;
+  padding-top: 1.87rem;
+  padding-right: 2rem;
+  padding-bottom:1.87rem;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.run-descerip{
+  padding: 2.5rem 3.4rem;
+}
+.run-descerip h3{
+  margin-bottom: 1rem;
+}
+.run-descerip p{
+  margin-bottom: 2rem;
 }
