@@ -217,3 +217,38 @@
 .run-descerip p{
   margin-bottom: 2rem;
 }
+
+/* ---------------------------------Training Section Styles */
+.training h3{
+  margin-bottom: 1rem;
+}
+.train-des{
+  margin-bottom: 3.6rem;
+}
+/* .training-img{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1.4fr;
+  grid-template-columns: 2fr 1fr 1.8fr;
+  gap:10px;
+} */
+.training-img{
+  display: flex;
+  flex-direction: column;
+}
+
+.training1{
+  height: 16rem;
+  width: 25%;
+  background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
+.training2{
+  height: 16rem;
+  width: 40%;
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
