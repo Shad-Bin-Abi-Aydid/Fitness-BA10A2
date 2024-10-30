@@ -225,30 +225,81 @@
 .train-des{
   margin-bottom: 3.6rem;
 }
-/* .training-img{
+
+.training-img-1{
   display: grid;
-  grid-template-columns: 1fr 2.5fr 1.4fr;
-  grid-template-columns: 2fr 1fr 1.8fr;
-  gap:10px;
-} */
-.training-img{
-  display: flex;
-  flex-direction: column;
+  grid-template-columns: 1fr 2fr 1.4fr;
+  margin-bottom: -2rem;
+  
+}
+.training-img-2{
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1.6fr;
+  
+}
+
+.training-img p{
+  height: 16rem;
+  font-weight: 500;
 }
 
 .training1{
-  height: 16rem;
-  width: 25%;
+  color: #000000;
   background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
+.training1 span, .training3 span, .training5 span, .training6 span{
+  position: relative;
+  top: 13rem;
+  left: 2rem;
+}
 .training2{
-  height: 16rem;
-  width: 40%;
+  /* width: 36rem; */
   background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
+.training2 span{
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+}
+.training3{
+  /* width: 25rem; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
+.training4{
+  /* width: 40%; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
+.training4 span{
+  position: relative;
+  top: 2rem;
+  left: 20rem;
+}
+
+.training5{
+  /* width: 40%; */
+  background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
+
+.training6{
+  /* width: 40%; */
+  background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: center, center;
+}
+
