@@ -199,107 +199,195 @@
   gap: 10.3rem;
 }
 
-.run-img img{
+.run-img img {
   width: 22.8rem;
   height: 19.5rem;
   padding-top: 1.87rem;
   padding-right: 2rem;
-  padding-bottom:1.87rem;
+  padding-bottom: 1.87rem;
   border-radius: 10%;
   object-fit: cover;
 }
-.run-descerip{
+.run-descerip {
   padding: 2.5rem 3.4rem;
 }
-.run-descerip h3{
+.run-descerip h3 {
   margin-bottom: 1rem;
 }
-.run-descerip p{
+.run-descerip p {
   margin-bottom: 2rem;
 }
 
 /* ---------------------------------Training Section Styles */
-.training h3{
+.training h3 {
   margin-bottom: 1rem;
 }
-.train-des{
+.train-des {
   margin-bottom: 3.6rem;
 }
 
-.training-img-1{
+.training-img-1 {
   display: grid;
   grid-template-columns: 1fr 2fr 1.4fr;
   margin-bottom: -2rem;
-  
 }
-.training-img-2{
+.training-img-2 {
   display: grid;
   grid-template-columns: 1.8fr 1fr 1.6fr;
-  
 }
 
-.training-img p{
+.training-img p {
   height: 16rem;
   font-weight: 500;
 }
 
-.training1{
+.training1 {
   color: #000000;
-  background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
+  background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)),
+    url("../images/exercise1.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
-.training1 span, .training3 span, .training5 span, .training6 span{
+.training1 span,
+.training3 span,
+.training5 span,
+.training6 span {
   position: relative;
   top: 13rem;
   left: 2rem;
 }
-.training2{
+.training2 {
   /* width: 36rem; */
-  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url("../images/exercise2.png");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
-.training2 span{
+.training2 span {
   position: relative;
   top: 2rem;
   left: 2rem;
 }
-.training3{
+.training3 {
   /* width: 25rem; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/exercise3.png");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
-.training4{
+.training4 {
   /* width: 40%; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/exercise4.png");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
-.training4 span{
+.training4 span {
   position: relative;
   top: 2rem;
   left: 20rem;
 }
 
-.training5{
+.training5 {
   /* width: 40%; */
-  background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
+  background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)),
+    url("../images/exercise5.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
 
-.training6{
+.training6 {
   /* width: 40%; */
-  background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
+  background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)),
+    url("../images/exercise6.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
   background-position: center, center;
 }
 
+/* ------------------------------BMI Calculator Section Styles */
+
+.bmi-des {
+  padding: 0 24rem 5rem 24rem;
+}
+
+.bmi-cal {
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3.25rem;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.table {
+  margin-top: 3.25rem;
+}
+table,
+td,
+th {
+  border: 1px solid #ffffff80;
+  border-collapse: collapse;
+  padding: 0.8rem 4.4rem 0.8rem 1.1rem;
+}
+.table-head {
+  font-size: 1rem;
+  font-size: 500;
+}
+.bmi-form button {
+  margin-bottom: 3.25rem;
+}
+.bmi-form h4 {
+  margin-bottom: 0.9rem;
+}
+.bmi-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2.1rem;
+  margin-top: 2.1rem;
+}
+#factor {
+  grid-column: span 2;
+}
+.bmi-input input,
+select {
+  border-radius: 8px;
+  background: #ffffff1a;
+  color: #ffffff99;
+  padding: 12px 40px 12px 20px;
+  border: none;
+}
+
+/* --------------------------------------Meet the Team Styles */
+.team-des {
+  text-align: center;
+  padding: 0 12rem 3.6rem 12rem;
+}
+
+.team-img-container {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  padding: 1.25rem;
+}
+.card{
+  width: auto;
+  height: 17rem;
+  border-radius: 1.1rem;
+}
+#bg-1{
+  background: url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
