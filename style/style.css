@@ -376,7 +376,7 @@ select {
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 1.25rem;
 }
@@ -384,9 +384,44 @@ select {
   width: auto;
   height: 17rem;
   border-radius: 1.1rem;
+
+}
+.card-des{
+  margin-left: 2rem;
+  margin-top: 12rem;
 }
 #bg-1{
   background: url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-2{
+  background: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-3{
+  background: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-4{
+  background: url("../images/trainer4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-5{
+  background: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg-6{
+  background: url("../images/trainer6.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
