@@ -77,6 +77,9 @@
   border-radius: 40px;
   padding: 12px 20px;
 }
+.menu-bar {
+  display: none;
+}
 #home {
   border-radius: 46px;
   padding: 8px 25px;
@@ -100,7 +103,7 @@
   );
 }
 .banner-des {
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 .banner-title {
   font-size: 4.8rem;
@@ -330,7 +333,7 @@
 .table {
   margin-top: 3.25rem;
 }
-table,
+.table,
 td,
 th {
   border: 1px solid #ffffff80;
@@ -359,12 +362,11 @@ th {
 }
 .bmi-input input,
 select {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #ffffff1a;
   color: #a9a3a399;
-  padding: 12px 40px 12px 20px;
+  padding: 0.7rem 2.5rem 0.7rem 1.2rem;
   border: none;
-
 }
 
 /* --------------------------------------Meet the Team Styles */
@@ -381,79 +383,199 @@ select {
   gap: 1rem;
   padding: 1.25rem;
 }
-.card{
+.card {
   width: auto;
   height: 17rem;
   border-radius: 1.1rem;
-
 }
-.card-des{
+.card-des {
   margin-left: 2rem;
   margin-top: 12rem;
 }
-#bg-1{
+#bg-1 {
   background: url("../images/trainer1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-#bg-2{
+#bg-2 {
   background: url("../images/trainer2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-#bg-3{
+#bg-3 {
   background: url("../images/trainer3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-#bg-4{
+#bg-4 {
   background: url("../images/trainer4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-#bg-5{
+#bg-5 {
   background: url("../images/trainer5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-#bg-6{
+#bg-6 {
   background: url("../images/trainer6.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-
 /* ---------------------------------Footer */
-.footer{
+.footer {
   background: rgb(34, 34, 34);
   margin-bottom: -6.25rem;
 }
-.footer-des{
+.footer-des {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  gap:15rem;
+  gap: 15rem;
   padding: 4.1rem 0rem 2.5rem 1.25rem;
 }
-.fitness{
+.fitness {
   margin-bottom: 1.25rem;
 }
-.footer-des>div>p{
+.footer-des > div > p {
   color: #ffffff80;
 }
 
-.get-start>p{
+.get-start > p {
   font-size: 1.4rem;
   font-weight: 400;
 }
 
-.footer-note{
+.footer-note {
   text-align: center;
   padding-bottom: 1.8rem;
   padding-top: 1.8rem;
 }
+
+/* Responsive design for Small screen */
+
+@media screen and (max-width: 576px) {
+  /* Header section  */
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-des{
+    padding: 1rem;
+  }
+  .size {
+    margin: 3.5rem 1rem 6.25rem 1rem;
+  }
+  .links > li {
+    display: none;
+  }
+  .links {
+    border: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .banner,
+  .run,
+  .bmi-cal {
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 2.25rem;
+  }
+  .banner-btn {
+    display: flex;
+  }
+
+  /* Habit Section */
+  .habit-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* Run an Extra Section */
+
+  .run-img img {
+    width: 17.8rem;
+    height: 10.5rem;
+    padding-top: 0rem;
+    border-radius: 10%;
+    object-fit: cover;
+    align-items: center;
+  }
+  .run-descerip {
+    padding-bottom: 0 rem;
+  }
+
+  /* Training Section */
+
+  .training3,
+  .training6 {
+    display: none;
+  }
+  .training-img-1 {
+    grid-template-columns: 1.8fr 1.5fr;
+  }
+  .training-img-2 {
+    grid-template-columns: 1.5fr 1.8fr;
+  }
+  .training4 span {
+    position: relative;
+    top: 13rem;
+    left: 0.5rem;
+  }
+  /* BMI */
+  .bmi{
+    margin: 1rem;
+  }
+  .bmi-des,
+  .bmi-cal {
+    padding: 1rem;
+  }
+  .bmi-chart,
+  .bmi-form {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .table,
+  td,
+  th {
+    padding: 0.6rem 1rem;
+  }
+  .bmi-input{
+    gap: 5px;
+  }
+  .bmi-input input,
+  select {
+    padding: 0.6rem 1rem;
+    width: 80%;
+  }
+  #factor {
+    width: 100%;
+  }
+
+  /* Meet the team */
+  .team-img-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .team-des {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  /* Footer Style */
+  .footer-des {
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+  }
+}
+
+
+
